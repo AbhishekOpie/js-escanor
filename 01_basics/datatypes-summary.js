@@ -40,3 +40,38 @@ console.log(typeof outsideTemp)
 console.log(typeof myFunction)
 console.log(typeof heros)
 console.log(typeof bigNumber)
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Types Of Memory 
+// 1. Stack Memory ( Primitive )
+// 2. Heap Memory ( Non Primitive )
+
+// Stack Memory
+let myName = " Abhishek "
+
+let anotherName = " Kumar "
+anotherName = " Escanor "
+
+console.log(myName)
+console.log(anotherName)
+
+let userOne = {
+    email: "user1@gmail.com",
+    upi: "user1@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "abhi@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
+
+
+
+
+
